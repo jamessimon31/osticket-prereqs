@@ -21,8 +21,8 @@ In this Tutorial, you will create a VM(virtual machine)to host the Help Desk Tic
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-
-- Download the Files that are required for osTicket those can be found [here](hhtps://www.youtube.com)
+ 
+- Download the Files that are required for osTicket those can be found ### [here](hhtps://www.youtube.com)
 - Item 2
 - Item 3
 - Item 4
