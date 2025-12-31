@@ -12,7 +12,7 @@ In this Tutorial, you will create a VM(virtual machine)to host the Help Desk Tic
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -20,13 +20,11 @@ In this Tutorial, you will create a VM(virtual machine)to host the Help Desk Tic
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
- 
-- Download the Files that are required for osTicket those can be found [here](https://www.youtube.com)
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<h2>List of Prerequisites </h2>
+
+  - Azure Virtual Machine
+  - [osTicket Installation files](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+  - Heidi SQL
 
 <h2>Installation Steps</h2>
 
