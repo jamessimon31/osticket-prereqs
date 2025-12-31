@@ -22,7 +22,7 @@ In this Tutorial, you will create a VM(virtual machine)to host the Help Desk Tic
 
 <h2>List of Prerequisites</h2>
  
-- Download the Files that are required for osTicket those can be found ### [here](hhtps://www.youtube.com)
+- Download the Files that are required for osTicket those can be found [here](https://www.youtube.com)
 - Item 2
 - Item 3
 - Item 4
