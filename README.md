@@ -4,7 +4,7 @@
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
+In this Tutorial, you will create a VM(virtual machine)to host the Help Desk Ticketing Software. We then have to setup the VM so we can install and configure an SQL server for osTicket to use as a database to hold all of the software information.
 
 <h2>Video Demonstration</h2>
 
