@@ -29,16 +29,23 @@ In this Tutorial, you will create a VM(virtual machine)to host the Help Desk Tic
 <h2>Installation Steps</h2>
 
 <h3>Creating a Virtual Machine in Azure</h3>
+<p> Create a resource group and set the region to East 2 (Important to keep the same with all the other VMs you make) 
+  
+- Create a VM with the name of osTicketVM 
+- Username: labuser
+- Password: osTicketPassword1!
+</p>
 
--  Create a resource group and set the region to East 2 (Important to keep the same with all the other VMs you make) 
-
+    
 <img width="345" height="398" alt="image" src="https://github.com/user-attachments/assets/94b08efc-d4b2-4fd1-8e5d-13228e8c6d08" />
 
-
 <img width="468" height="336" alt="image" src="https://github.com/user-attachments/assets/bd6ecb57-4784-414b-8f3e-63d9a9d4d937" />
-<br />
 
-    - Create a VM with the name of osTicketVM 
-    - Username: labuser
-    - Password: osTicketPassword1!
-    
+<br />
+<br />
+<p>
+
+  <img width="468" height="173" alt="image" src="https://github.com/user-attachments/assets/43095a5d-73f3-4dd0-a4b8-f837143bb55c" />
+
+</p>
+
