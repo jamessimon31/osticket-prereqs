@@ -52,15 +52,11 @@ Ensure the following components are available before starting:
 
 <!-- Screenshot 01: Azure Portal – Create Virtual Machine (images/01-create-vm.png) -->
 
-
 1. Log in to the **Azure Portal**
 2. Search for **Virtual Machines** and select **Create**
 3. Create a new **Resource Group**
 4. Set the region to **East US 2** (recommended for consistency)
 
-|<img width="283" height="213" alt="image" src="https://github.com/user-attachments/assets/9763eb50-3539-4a91-9194-1cfacde93d0c" />| <img width="201" height="232" alt="image" src="https://github.com/user-attachments/assets/5ad3852c-559a-4c4a-bb41-955cbc27237c" />| <img width="213" height="153" alt="image" src="https://github.com/user-attachments/assets/a01b8cfd-b75e-462e-8122-284d5d49014a" />| 
-
-------
 <br />
 
 **Lab Configuration Example:**
