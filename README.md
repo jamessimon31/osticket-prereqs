@@ -90,7 +90,7 @@ Ensure the following components are available before starting:
 
 ### 4. Install PHP Manager
 
-<!-- Screenshot 05: PHP Manager Installer (images/05-php-manager-install.png) -->
+<img width="1024" height="861" alt="15-screenshot" src="https://github.com/user-attachments/assets/81da830d-7553-46c1-9b7e-24ab5e2f2b7c" />
 
 * Run the **PHP Manager for IIS** installer
 * Complete the installation using default settings
@@ -101,7 +101,8 @@ PHP Manager is required to configure PHP versions and extensions used by osTicke
 
 ### 5. Install IIS Rewrite Module
 
-<!-- Screenshot 06: IIS Rewrite Module Installer (images/06-rewrite-module.png) -->
+<img width="1022" height="811" alt="16-screenshot" src="https://github.com/user-attachments/assets/9d0cf9f5-4b1c-4db1-a82a-f4ca0f1fb604" />
+
 
 * Run the **Rewrite Module** installer
 * This enables friendly URLs and proper request routing in IIS
@@ -110,17 +111,21 @@ PHP Manager is required to configure PHP versions and extensions used by osTicke
 
 ### 6. Configure PHP
 
-<!-- Screenshot 07: PHP Folder and Extracted Files (images/07-php-folder.png) -->
+<img width="1726" height="1478" alt="17-screenshot" src="https://github.com/user-attachments/assets/b364367c-3462-4d8b-89f8-4b11bef815cc" />
 
 1. Navigate to `C:\`
 2. Create a folder named **PHP**
 3. Extract `php-7.3.8-nts-Win32-VC15-x86.zip` into the `C:\PHP` directory
 
+<img width="935" height="468" alt="18-screenshot" src="https://github.com/user-attachments/assets/5c2b2879-e68d-44ec-8c87-52ada4fe2ec6" />
+
+
 ---
 
 ### 7. Install VC++ Redistributable
 
-<!-- Screenshot 08: VC_redist.x86 Installer (images/08-vc-redist.png) -->
+<img width="505" height="313" alt="20-screenshot" src="https://github.com/user-attachments/assets/0ba65f14-8857-4e0a-aaba-61608be1dfa2" />
+
 
 * Run `VC_redist.x86.exe`
 * Complete the basic installation
@@ -131,12 +136,16 @@ This is required for PHP to run correctly on Windows.
 
 ### 8. Install MySQL
 
-<!-- Screenshot 09: MySQL Installer – Typical / Standard Configuration (images/09-mysql-install.png) -->
+<img width="525" height="410" alt="21-screenshot" src="https://github.com/user-attachments/assets/c7b0b759-0b61-4443-adc0-3a88f610fe22" />
 
 1. Run the MySQL installer
 2. Choose **Typical Setup**
 3. Select **Standard Configuration**
 4. Set the MySQL root credentials
+<img width="1078" height="875" alt="22-screenshot" src="https://github.com/user-attachments/assets/48253de6-48f9-47e9-8405-a61a40112504" />
+<img width="1136" height="831" alt="23-screenshot" src="https://github.com/user-attachments/assets/3c89268a-81e2-48d3-8323-7d8bc2ad0a60" />
+<img width="1812" height="1164" alt="24-screenshot" src="https://github.com/user-attachments/assets/71504b77-3f9d-4ed8-9288-53ef223f2ff1" />
+
 
 MySQL is used to store:
 
@@ -151,19 +160,21 @@ MySQL is used to store:
 
 ### 9. Configure IIS for PHP
 
-<!-- Screenshot 10: IIS PHP Manager – Register New PHP Version (images/10-register-php.png) -->
+<img width="1778" height="1398" alt="25-screenshot" src="https://github.com/user-attachments/assets/b7d5eb96-1d57-4301-926f-e594329d5469" />
 
 1. Open **IIS Manager** as Administrator
 2. Select the server node
 3. Open **PHP Manager**
 4. Click **Register new PHP version**
 5. Browse to `C:\PHP\php-cgi.exe`
+<img width="2397" height="1319" alt="26-screenshot" src="https://github.com/user-attachments/assets/a6b84201-9820-41e3-aec1-2986f951c0eb" />
 
 ---
 
 ### 10. Restart IIS
 
-<!-- Screenshot 11: IIS Stop and Start (images/11-restart-iis.png) -->
+<img width="2289" height="1275" alt="27-screenshot" src="https://github.com/user-attachments/assets/42820d00-bc4f-44b7-8ce8-a6370f82d241" />
+
 
 * In IIS Manager:
 
