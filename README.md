@@ -187,15 +187,17 @@ MySQL is used to store:
 
 ### 11. Deploy osTicket Files
 
-<!-- Screenshot 12: osTicket Files in wwwroot (images/12-osticket-wwwroot.png) -->
+<img width="804" height="613" alt="28-screenshot" src="https://github.com/user-attachments/assets/65dfab18-b7d9-45b3-b676-ff828aea4768" />
+
 
 1. Extract `osTicket-v1.15.8.zip`
-2. Copy the **upload** folder to:
+2. Copy the **upload** folder to: `osTicket`
+<img width="805" height="240" alt="29-screenshot" src="https://github.com/user-attachments/assets/653822a0-d0bd-4df3-a520-63ef48d4632a" />
 
    ```
    C:\inetpub\wwwroot
    ```
-3. Rename the folder from `upload` to `osTicket`
+4. Rename the folder from `upload` to `osTicket`
 
 ---
 
