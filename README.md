@@ -81,7 +81,7 @@ Ensure the following components are available before starting:
 
 <!-- Screenshot 03: Downloading and Extracting osTicket Files (images/03-download-osticket.png) -->
 
-* Download the osTicket installation package
+* Download the [osTicket installation package](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
 * Extract the files to the **Desktop** for easy access
 
 ---
