@@ -48,26 +48,9 @@ Ensure the following components are available before starting:
 
 ## 🚀 Installation Steps
 
-### 1. Create an Azure Virtual Machine
-
-<!-- Screenshot 01: Azure Portal – Create Virtual Machine (images/01-create-vm.png) -->
-
-1. Log in to the **Azure Portal**
-2. Search for **Virtual Machines** and select **Create**
-3. Create a new **Resource Group**
-4. Set the region to **East US 2** (recommended for consistency)
-
-<br />
-
-**Lab Configuration Example:**
-
-* VM Name: `osTicket-VM`
-* Username: `labuser`
-* Password: `osTicketPassword1!`
-
 ---
 
-### 2. Connect to the VM
+### 1. Connect to the VM
 
 <!-- Screenshot 02: RDP Connection to Azure VM (images/02-rdp-connect.png) -->
 
@@ -77,7 +60,7 @@ Ensure the following components are available before starting:
 
 ---
 
-### 3. Download osTicket Installation Files
+### 2. Download osTicket Installation Files
 
 <!-- Screenshot 03: Downloading and Extracting osTicket Files (images/03-download-osticket.png) -->
 
@@ -86,7 +69,7 @@ Ensure the following components are available before starting:
 
 ---
 
-### 4. Enable IIS with CGI
+### 3. Enable IIS with CGI
 
 <!-- Screenshot 04: Windows Features – IIS and CGI Enabled (images/04-enable-iis-cgi.png) -->
 
@@ -99,7 +82,7 @@ Ensure the following components are available before starting:
 
 ---
 
-### 5. Install PHP Manager
+### 4. Install PHP Manager
 
 <!-- Screenshot 05: PHP Manager Installer (images/05-php-manager-install.png) -->
 
@@ -110,7 +93,7 @@ PHP Manager is required to configure PHP versions and extensions used by osTicke
 
 ---
 
-### 6. Install IIS Rewrite Module
+### 5. Install IIS Rewrite Module
 
 <!-- Screenshot 06: IIS Rewrite Module Installer (images/06-rewrite-module.png) -->
 
@@ -119,7 +102,7 @@ PHP Manager is required to configure PHP versions and extensions used by osTicke
 
 ---
 
-### 7. Configure PHP
+### 6. Configure PHP
 
 <!-- Screenshot 07: PHP Folder and Extracted Files (images/07-php-folder.png) -->
 
@@ -129,7 +112,7 @@ PHP Manager is required to configure PHP versions and extensions used by osTicke
 
 ---
 
-### 8. Install VC++ Redistributable
+### 7. Install VC++ Redistributable
 
 <!-- Screenshot 08: VC_redist.x86 Installer (images/08-vc-redist.png) -->
 
@@ -140,7 +123,7 @@ This is required for PHP to run correctly on Windows.
 
 ---
 
-### 9. Install MySQL
+### 8. Install MySQL
 
 <!-- Screenshot 09: MySQL Installer – Typical / Standard Configuration (images/09-mysql-install.png) -->
 
@@ -160,7 +143,7 @@ MySQL is used to store:
 
 ---
 
-### 10. Configure IIS for PHP
+### 9. Configure IIS for PHP
 
 <!-- Screenshot 10: IIS PHP Manager – Register New PHP Version (images/10-register-php.png) -->
 
@@ -172,7 +155,7 @@ MySQL is used to store:
 
 ---
 
-### 11. Restart IIS
+### 10. Restart IIS
 
 <!-- Screenshot 11: IIS Stop and Start (images/11-restart-iis.png) -->
 
@@ -185,7 +168,7 @@ MySQL is used to store:
 
 ---
 
-### 12. Deploy osTicket Files
+### 11. Deploy osTicket Files
 
 <!-- Screenshot 12: osTicket Files in wwwroot (images/12-osticket-wwwroot.png) -->
 
@@ -199,7 +182,7 @@ MySQL is used to store:
 
 ---
 
-### 13. Restart IIS Again
+### 12. Restart IIS Again
 
 <!-- Screenshot 13: IIS Restart After osTicket Deployment (images/13-final-restart.png) -->
 
@@ -234,7 +217,3 @@ You should now see the osTicket web installer.
 * Verify folder permissions for `C:\inetpub\wwwroot\osTicket`
 
 ---
-
-## 📄 License
-
-osTicket is open-source software. Refer to the official osTicket license for usage terms.
