@@ -83,6 +83,9 @@ Ensure the following components are available before starting:
    * **Internet Information Services (IIS)**
    * **CGI** (under *World Wide Web Services → Application Development Features*)
 
+<img width="1072" height="801" alt="12-screenshot" src="https://github.com/user-attachments/assets/06b52fed-34f9-4e92-aa62-f8677b21c3cf" />
+<img width="958" height="784" alt="13-screenshot" src="https://github.com/user-attachments/assets/ab79fe74-4925-41b7-aeb9-72751f31780a" />
+
 ---
 
 ### 4. Install PHP Manager
