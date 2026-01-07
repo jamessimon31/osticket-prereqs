@@ -52,21 +52,24 @@ Ensure the following components are available before starting:
 
 ### 1. Connect to the VM
 
-<!-- Screenshot 02: RDP Connection to Azure VM (images/02-rdp-connect.png) -->
+
 
 1. Locate the **Public IP Address** of the VM
 2. Connect using **Remote Desktop**
 3. Log in with the credentials created earlier
+   
+<img width="1001" height="1114" alt="09-screenshot" src="https://github.com/user-attachments/assets/32407cd1-8414-438d-8c02-8d492e27b09a" />
 
 ---
 
 ### 2. Download osTicket Installation Files
 
-<!-- Screenshot 03: Downloading and Extracting osTicket Files (images/03-download-osticket.png) -->
+
+
 
 * Download the [osTicket installation package](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
 * Extract the files to the **Desktop** for easy access
-
+<img width="2259" height="1185" alt="11-screenshot" src="https://github.com/user-attachments/assets/cc61f21f-cfce-4a8e-ac4e-97c86f336d0b" />
 ---
 
 ### 3. Enable IIS with CGI
