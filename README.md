@@ -203,7 +203,8 @@ MySQL is used to store:
 
 ### 12. Restart IIS Again
 
-<!-- Screenshot 13: IIS Restart After osTicket Deployment (images/13-final-restart.png) -->
+<img width="2289" height="1275" alt="27-screenshot" src="https://github.com/user-attachments/assets/0865f6ed-9db2-4696-99ca-676bcc12502d" />
+
 
 Restart IIS once more to apply all changes.
 
