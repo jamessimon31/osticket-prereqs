@@ -365,10 +365,6 @@ After installation:
 
 ---
 
-## 📚 Notes
-
-* This guide is intended for educational and lab environments
-* Additional hardening is recommended for production deployments
-* Database and email configuration are completed during the web installer
+## osTicket is Installed and is ready to Configure
 
 ---
