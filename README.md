@@ -239,8 +239,31 @@ In the IIS go to Sites > Default > osTicket
 
 <img width="468" height="126" alt="image" src="https://github.com/user-attachments/assets/85294e91-a154-4b17-a8f5-29476d98ce81" />
 
+- Enable: ```php_imap.dll```
+- Enable: ```php_intl.dll```
+- Enable: ```php_opcache.dll```
+
+<img width="282" height="237" alt="image" src="https://github.com/user-attachments/assets/4736e377-d15b-4931-8e98-50b97cb791f1" />
+
+> Before you go forward make sure all of them show enabled. Once they show enable, Refresh the osTicket site in the Browser. 
+
+<img width="349" height="313" alt="image" src="https://github.com/user-attachments/assets/6a7feaa8-7e78-4004-946c-070ffa0a67bc" />
 
 ---
+
+### 14. Rename the Config files
+
+- Go to ```C:\inetpub\wwwroot\osTicket\include```
+- Change the File ```ost-sampleconfig.php```
+- To ```ost-config.php```
+  
+  <img width="345" height="309" alt="image" src="https://github.com/user-attachments/assets/b99d97c2-e7e4-4b05-91fe-2a80d616b5b9" />
+
+- We then are going to change the permission to that file, so osTicket can change/edit that file
+
+  <img width="254" height="217" alt="image" src="https://github.com/user-attachments/assets/d8d3ba37-b622-4c21-aa6d-1d4a880e1080" />
+
+
 
 ## 🎉 Final Step
 
