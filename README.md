@@ -299,17 +299,69 @@ In the IIS go to Sites > Default > osTicket
 
       <img width="345" height="215" alt="image" src="https://github.com/user-attachments/assets/be4369bf-487c-40d0-b5af-c2e127eebe50" />
 
+---
 
+### 15. Complete osTicket Web Installer
+
+In the browser setup page:
+
+-   Helpdesk Name
+    
+-   Default Email
+    
+-   Admin Name, Email, Username, Password
+
+
+<img width="266" height="275" alt="image" src="https://github.com/user-attachments/assets/d57d0c42-07fd-40d8-9c7a-52863171be1c" />
+
+
+**Database Settings:**
+
+-   MySQL Database: `osTicket`
+    
+-   Username: `root`
+    
+-   Password: `root`
+    
+
+Click **Install Now!**
+
+
+<img width="468" height="207" alt="image" src="https://github.com/user-attachments/assets/3166537e-2dd0-4170-a853-7ae904195361" />
+
+----------
 
 ## 🎉 Final Step
 
 Open a browser inside the VM and navigate to:
 
-```
-http://localhost/osTicket
-```
-
+-   End User Portal:
+    
+    ```
+    http://localhost/osTicket/
+    ```
+    
+-   Admin Panel:
+    
+    ```
+    http://localhost/osTicket/scp/login.php
+    ```
+    
 You should now see the osTicket web installer.
+
+
+<img width="363" height="285" alt="image" src="https://github.com/user-attachments/assets/c30257c9-4b67-4831-bf77-98b742a65970" />
+
+---
+
+## 🧹 Cleanup (Important)
+
+After installation:
+
+1.  Delete: `C:\inetpub\wwwroot\osTicket\setup`
+    
+2.  Set permissions on: `C:\inetpub\wwwroot\osTicket\include\ost-config.php` 
+    to **Read-only**
 
 ---
 
@@ -318,13 +370,5 @@ You should now see the osTicket web installer.
 * This guide is intended for educational and lab environments
 * Additional hardening is recommended for production deployments
 * Database and email configuration are completed during the web installer
-
----
-
-## 🧩 Troubleshooting Tips
-
-* Ensure required PHP extensions are enabled in PHP Manager
-* Confirm MySQL service is running
-* Verify folder permissions for `C:\inetpub\wwwroot\osTicket`
 
 ---
