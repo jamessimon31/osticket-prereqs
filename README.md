@@ -210,6 +210,20 @@ Restart IIS once more to apply all changes.
 
 ---
 
+
+### 13. In the IIS go to Sites > Default > osTicket
+
+In the IIS go to Sites > Default > osTicket
+
+<img width="344" height="196" alt="image" src="https://github.com/user-attachments/assets/de9c3752-8021-4c58-b78e-0ce43a96d538" />
+
+   a. It should look like this
+
+<img width="195" height="222" alt="image" src="https://github.com/user-attachments/assets/1f708ebd-6bd6-4121-adc2-d00908aecbd1" />
+
+
+---
+
 ## 🎉 Final Step
 
 Open a browser inside the VM and navigate to:
