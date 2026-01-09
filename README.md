@@ -224,6 +224,18 @@ In the IIS go to Sites > Default > osTicket
 <img width="195" height="222" alt="image" src="https://github.com/user-attachments/assets/1f708ebd-6bd6-4121-adc2-d00908aecbd1" />
 
 
+
+> **Note:** that some extensions are not enabled. We will fix a couple of those before we finish the lab.
+
+---
+
+### 13. In the IIS go to Sites > Default > osTicket
+
+- Go back to IIS, Site > Default > osTicket
+- Double-click PHP Manager
+- Click 'Enable or Disable an extension'
+
+
 ---
 
 ## 🎉 Final Step
