@@ -33,6 +33,8 @@ osTicket is a PHP-based ticketing system that relies on IIS, PHP, and MySQL to f
 
 ## ✅ Prerequisites
 
+* Creating a VM to Use osTicket: [Here](https://github.com/jamessimon31/ConfigueVM)
+
 Ensure the following components are available before starting:
 
 * Internet Information Services (IIS)
