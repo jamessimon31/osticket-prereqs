@@ -284,11 +284,21 @@ In the IIS go to Sites > Default > osTicket
 
 ### 14. Create the Database (HeidiSQL)
 
+<img width="332" height="201" alt="image" src="https://github.com/user-attachments/assets/0fcfdf48-19ac-4413-acc5-7b123e5a6ac7" />
+
 1.  Install **HeidiSQL** from the installation files
     
 2.  Open HeidiSQL and connect to the MySQL server
-    
+   
+      - Username: `root`
+      - Password: `root`
+        
+        <img width="468" height="267" alt="image" src="https://github.com/user-attachments/assets/492e793e-0234-48c0-a90e-e64f520ee251" />
+
 3.  Create a database named: `osTicket`
+
+      <img width="345" height="215" alt="image" src="https://github.com/user-attachments/assets/be4369bf-487c-40d0-b5af-c2e127eebe50" />
+
 
 
 ## 🎉 Final Step
