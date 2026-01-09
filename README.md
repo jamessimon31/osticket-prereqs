@@ -263,6 +263,32 @@ In the IIS go to Sites > Default > osTicket
 
   <img width="254" height="217" alt="image" src="https://github.com/user-attachments/assets/d8d3ba37-b622-4c21-aa6d-1d4a880e1080" />
 
+#### Set Permissions
+
+1.  Right-click `ost-config.php` → **Properties → Security → Advanced**
+   
+    <img width="116" height="154" alt="image" src="https://github.com/user-attachments/assets/3f69c02f-9f20-4d9d-a406-9ee539efe1c8" />
+
+2.  Disable inheritance → Remove all
+   
+    <img width="304" height="190" alt="image" src="https://github.com/user-attachments/assets/82ae260d-4a40-4cd0-99c1-6732e5ee949f" />
+
+3.  Add **Everyone** with **Full Control**
+   
+    <img width="298" height="178" alt="image" src="https://github.com/user-attachments/assets/e591d071-7d08-4ca1-9f25-640cb06963d5" />
+
+
+> ⚠️ This is insecure for production but acceptable for lab use.
+
+
+
+### 14. Create the Database (HeidiSQL)
+
+1.  Install **HeidiSQL** from the installation files
+    
+2.  Open HeidiSQL and connect to the MySQL server
+    
+3.  Create a database named: `osTicket`
 
 
 ## 🎉 Final Step
